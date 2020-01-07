@@ -5,22 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.ragnax.arrastrameorquestador.modelo.AutentificacionContext;
-import com.ragnax.arrastrameorquestador.modelo.BasicContext;
-import com.ragnax.arrastrameorquestador.modelo.EnterpriseContext;
-import com.ragnax.arrastrameorquestador.modelo.GrupoUsuarioModel;
-import com.ragnax.arrastrameorquestador.modelo.SeguridadContext;
-import com.ragnax.arrastrameorquestador.modelo.UsuarioSeguridad;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.AplicacionEmpresa;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.AplicacionRol;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.AplicacionServicio;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.Empresa;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.EmpresaUsuario;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.EmpresaUsuarioAplicacionEmpresa;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.Identificador;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.Rol;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.SeguridadAplicacionAcceso;
-
+import com.ragnax.domain.sso.entidad.*;
+import com.ragnax.domain.ssoorquestador.modelo.*;
 
 
 public class SSOOrquestadorMapper {

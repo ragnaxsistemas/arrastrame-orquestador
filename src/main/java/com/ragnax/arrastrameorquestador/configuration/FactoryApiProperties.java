@@ -9,7 +9,7 @@ import org.springframework.context.annotation.PropertySource;
 @Configuration
 @PropertySource("classpath:factoryapi.properties")
 @ConfigurationProperties(prefix = "factory")
-/****Properties que pueden cambiar el valor ****/
+/****Properties que pueden cambiar el valor, todas las variables que serian final static String****/
 public class FactoryApiProperties {
 	
 	private Configdata configdata;

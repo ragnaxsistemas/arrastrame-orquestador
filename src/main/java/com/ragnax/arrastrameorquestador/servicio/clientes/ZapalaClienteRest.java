@@ -3,8 +3,7 @@ package com.ragnax.arrastrameorquestador.servicio.clientes;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.Zapala;
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.ZapalaRequest;
+import com.ragnax.domain.zapala.modelo.*;
 
 
 @FeignClient(name = "ragnax-zapala" , url = "${server.port.zapala}")

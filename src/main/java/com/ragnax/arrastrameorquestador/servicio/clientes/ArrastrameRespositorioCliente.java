@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.ragnax.arrastrameorquestador.servicio.clientes.modelo.*;
+import com.ragnax.domain.sso.entidad.*;
 
 @FeignClient(name = "ragnax-seguridad" , url = "${server.port.arrastrame.repositorio}")
 public interface ArrastrameRespositorioCliente {
